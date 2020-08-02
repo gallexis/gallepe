@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 export default function Layout({ children, title }) {
   return (
-    <>
+    <html lang='en'>
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="theme-color" content="#ffffff"/>
         <meta
           name="description"
           content="Alexis Gallepe is a software developer, web developer, gamer, music and carnivorous plant lover."
@@ -17,17 +17,17 @@ export default function Layout({ children, title }) {
           property="og:description"
           content="Alexis Gallepe is a software developer, web developer, gamer music and carnivorous plant lover."
         />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="https://gallepe.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="article:author" content="https://gallepe.com/" />
+        <meta property="og:title" content={title}/>
+        <meta property="og:url" content="https://gallepe.com/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="article:author" content="https://gallepe.com/"/>
         <meta
           property="og:image"
           content="https://gallepe.com/images/gallexis.png"
         />
-        <link rel="canonical" href="https://gallepe.com/" />
-        <link rel="icon" type="image/svg" href="/favicon/gallexis.svg" />
-        <link rel="stylesheet" href="/fonts/inter-3.13/inter.css" />
+        <link rel="canonical" href="https://gallepe.com/"/>
+        <link rel="icon" type="image/svg" href="/favicon/gallexis.svg"/>
+        <link rel="stylesheet" href="/fonts/inter-3.13/inter.css"/>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"
@@ -35,8 +35,16 @@ export default function Layout({ children, title }) {
         <title>{title} &raquo; gallepe.com</title>
       </Head>
 
-      <header>
-        <h1>{title}</h1>
+      <header style={{ position: 'relative' }}>
+        <img style={{
+          float: 'right',
+          borderRadius: '50%',
+          width: '150px',
+          height: '150px',
+          display: 'inline-block',
+          verticalAlign: 'middle'
+        }} src="/images/gallexis.jpg" alt="Alexis Gallèpe"/>
+        <h1 style={{ display: 'inline-block', verticalAlign: 'middle' }}>Alexis Gallèpe</h1>
 
         <nav>
           <Link href="/">
@@ -54,6 +62,6 @@ export default function Layout({ children, title }) {
       </header>
 
       <main>{children}</main>
-    </>
+    </html>
   )
 }

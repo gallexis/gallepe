@@ -1,8 +1,12 @@
 import Layout from '../components/Layout'
 
 export default function Jobs() {
+  const title = "Previous Jobs"
+
   return (
-    <Layout title="Previous Jobs">
+    <Layout title={title}>
+      <h2>{title}</h2>
+
       <p>Here is some cool companies I' ve worked at : </p>
 
       <blockquote>

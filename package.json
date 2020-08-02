@@ -11,13 +11,13 @@
     "lint": "eslint . --ext ts --ext tsx --ext js"
   },
   "dependencies": {
-    "next": "9.5.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-react": "^7.20.5",
-    "prettier": "^2.0.5"
+    "next": "9.5.1",
+    "prettier": "^2.0.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
