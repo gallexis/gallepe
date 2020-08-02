@@ -23,7 +23,7 @@ export default function Home() {
         </a>{' '}
         or download my
         <a
-          href="https://raw.githubusercontent.com/gallexis/gallex.is/master/resume-alexis-gallepe-2019.pdf"
+          href="/resume-alexis-gallepe-2020.pdf"
           title="my resume"
           target="_blank"
         >
