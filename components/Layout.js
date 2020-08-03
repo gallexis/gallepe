@@ -23,11 +23,11 @@ export default function Layout({ children, title }) {
         <meta property="article:author" content="https://gallepe.com/"/>
         <meta
           property="og:image"
-          content="https://gallepe.com/images/gallexis.png"
+          content="https://gallepe.com/images/gallexis.jpg"
         />
         <link rel="canonical" href="https://gallepe.com/"/>
         <link rel="icon" type="image/svg" href="/favicon/gallexis.svg"/>
-        <link rel="stylesheet" href="/fonts/inter-3.13/inter.css"/>
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css"/>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"
@@ -51,7 +51,7 @@ export default function Layout({ children, title }) {
             <a>About</a>
           </Link>
           / 👨‍💻{' '}
-          <Link href="/jobs" as="/previous-jobs">
+          <Link href="/previous-jobs">
             <a>Previous Jobs</a>
           </Link>
           / 📝{' '}
