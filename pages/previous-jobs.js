@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-export default function Jobs() {
+export default function PreviousJobs() {
   const title = "Previous Jobs"
 
   return (
