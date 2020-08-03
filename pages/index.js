@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <Layout title="Alexis Gallèpe">
+    <Layout title="Alexis Gallèpe" page="">
       <p>
         👋 Hello! I'm Alexis Gallèpe, a 27 years old Software Developer,
         currently living in Lille (North of France). Follow me on{' '}
