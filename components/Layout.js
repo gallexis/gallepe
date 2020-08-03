@@ -11,11 +11,11 @@ export default function Layout({ children, title }) {
         <meta name="theme-color" content="#ffffff"/>
         <meta
           name="description"
-          content="Alexis Gallepe is a software developer, web developer, gamer, music and carnivorous plant lover."
+          content="Alexis Gallepe is a software developer, web developer, gamer & music lover."
         />
         <meta
           property="og:description"
-          content="Alexis Gallepe is a software developer, web developer, gamer music and carnivorous plant lover."
+          content="Alexis Gallepe is a software developer, web developer, gamer & music lover."
         />
         <meta property="og:title" content={title}/>
         <meta property="og:url" content="https://gallepe.com/"/>
