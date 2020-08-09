@@ -27,7 +27,7 @@ export default function PreviousJobs() {
         <h2>Partoo</h2>
         <p>
           <em>2017</em>-<em>2018</em> <br />
-          Software developer at Partoo, a startup help businesses to develop
+          Software developer at Partoo, a startup that helps businesses to develop
           their online visibility & e-reputation. <br />I implemented some{' '}
           <strong>Python</strong> pipelines to automate data fetching from the
           API/files of our clients, to our database.
