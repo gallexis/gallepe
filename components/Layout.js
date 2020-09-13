@@ -28,16 +28,10 @@ export default function Layout({ children, title, page }) {
         <link rel="canonical" href={'https://gallepe.com/' + page} />
         <link rel="icon" type="image/svg" href="/favicon/gallexis.svg" />
         <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css"/>
         <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
         <script dangerouslySetInnerHTML={{__html: `
-        window._mfq = window._mfq || [];
-        (function() {
-          var mf = document.createElement("script");
-          mf.type = "text/javascript"; mf.defer = true;
-          mf.src = "//cdn.mouseflow.com/projects/52906df2-328b-46e1-a54c-05afddd042be.js";
-          document.getElementsByTagName("head")[0].appendChild(mf);
-        })();
+        window._mfq = window._mfq || [];(function() {var mf = document.createElement("script");mf.type = "text/javascript"; mf.defer = true;mf.src = "//cdn.mouseflow.com/projects/52906df2-328b-46e1-a54c-05afddd042be.js";document.getElementsByTagName("head")[0].appendChild(mf);})();
         `}} />
         <title>{title} &raquo; gallepe.com</title>
       </Head>
