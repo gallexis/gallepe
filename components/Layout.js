@@ -28,10 +28,8 @@ export default function Layout({ children, title, page }) {
         <link rel="canonical" href={'https://gallepe.com/' + page} />
         <link rel="icon" type="image/svg" href="/favicon/gallexis.svg" />
         <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
         <title>{title} &raquo; gallepe.com</title>
       </Head>
 
@@ -57,8 +55,8 @@ export default function Layout({ children, title, page }) {
             <a>About</a>
           </Link>
           / 👨‍💻{' '}
-          <Link href="/previous-jobs">
-            <a>Previous Jobs</a>
+          <Link href="/jobs">
+            <a>Jobs</a>
           </Link>
           / 📝{' '}
           <a href="mailto:gallexis@protonmail.com" target="_blank">
@@ -68,6 +66,20 @@ export default function Layout({ children, title, page }) {
       </header>
 
       <main>{children}</main>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177859198-1"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'UA-177859198-1');
+                </script>
+              `,
+        }}
+      />
     </html>
   )
 }

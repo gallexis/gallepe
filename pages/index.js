@@ -35,14 +35,22 @@ export default function Home() {
 
       <p>Here is some cool projects I' ve worked on : </p>
 
-      <blockquote>
+      <div className="card block">
         <a
           href="https://github.com/gallexis/pytorrent"
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>PyTorrent</h2>
-          <p>
+          <h2>PyTorrent <img
+            style={{
+              float: 'right',
+              width: "3em",
+              display: 'inline-block',
+            }}
+            src="/images/python.svg"
+            alt="Python"
+          /></h2>
+
             <em>(2015)</em> CLI tool that downloads files from the BitTorrent
             network.
             <br />
@@ -50,19 +58,26 @@ export default function Home() {
             protocol work and improve my Python/Network skills.
             <br />
             It is almost written from scratch using <strong>Python 3.7</strong>.
-          </p>
         </a>
-      </blockquote>
+      </div>
 
       <br />
 
-      <blockquote>
+      <div className="card block">
         <a
           href="https://github.com/gallexis/go-kademlia"
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>Kademlia</h2>
+          <h2>Kademlia <img
+            style={{
+              float: 'right',
+              width: "5em",
+              display: 'inline-block',
+            }}
+            src="/images/golang.svg"
+            alt="Go"
+          /></h2>
           <p>
             <em>(2018)</em> An attempt to implement the Kademlia protocol using
             the <strong>Go</strong> language.
@@ -76,17 +91,25 @@ export default function Home() {
             with TCP)
           </p>
         </a>
-      </blockquote>
+      </div>
 
       <br />
 
-      <blockquote>
+      <div className="card block">
         <a
           href="https://github.com/gallexis/go-kademlia"
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>Bitpy</h2>
+          <h2>Bitpy <img
+            style={{
+              float: 'right',
+              width: "3em",
+              display: 'inline-block',
+            }}
+            src="/images/python.svg"
+            alt="Python"
+          /></h2>
           <p>
             <em>(2016)</em> Attempt to implement a <strong>Wireshark</strong>{' '}
             like program, where we can see messages sent & received by the{' '}
@@ -98,7 +121,7 @@ export default function Home() {
             pyqt.
           </p>
         </a>
-      </blockquote>
+      </div>
 
       <hr />
       <br />
@@ -106,7 +129,7 @@ export default function Home() {
       <p>
         You can find out more on my{' '}
         <a
-          href="https://github.com/gallexis"
+          href="https://github.com/gallexis/Bitpy"
           title="Follow me on Github"
           target="_blank"
         >
