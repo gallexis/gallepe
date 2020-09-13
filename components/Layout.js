@@ -30,6 +30,7 @@ export default function Layout({ children, title, page }) {
         <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css"/>
         <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177859198-1" />
         <title>{title} &raquo; gallepe.com</title>
       </Head>
 
@@ -69,15 +70,11 @@ export default function Layout({ children, title, page }) {
       <script
         dangerouslySetInnerHTML={{
           __html: `
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177859198-1"></script>
-                <script>
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                
-                  gtag('config', 'UA-177859198-1');
-                </script>
-              `,
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-177859198-1');
+          `,
         }}
       />
     </html>
