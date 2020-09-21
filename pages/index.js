@@ -33,7 +33,7 @@ export default function Home() {
         .
       </p>
 
-      <p>Here is some cool projects I' ve worked on : </p>
+      <p>Here is some cool projects I've worked on : </p>
 
       <div className="card block">
         <a
@@ -41,23 +41,25 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>PyTorrent <img
-            style={{
-              float: 'right',
-              width: "3em",
-              display: 'inline-block',
-            }}
-            src="/images/python.svg"
-            alt="Python"
-          /></h2>
-
-            <em>(2015)</em> CLI tool that downloads files from the BitTorrent
-            network.
-            <br />
-            My first personal project, made to learn how does a decentralized
-            protocol work and improve my Python/Network skills.
-            <br />
-            It is almost written from scratch using <strong>Python 3.7</strong>.
+          <h2>
+            PyTorrent{' '}
+            <img
+              style={{
+                float: 'right',
+                width: '2em',
+                display: 'inline-block',
+              }}
+              src="/images/python.svg"
+              alt="Python"
+            />
+          </h2>
+          <em>(2015)</em> CLI tool that downloads files from the BitTorrent
+          network.
+          <br />
+          My first personal project, made to learn how does a decentralized
+          protocol work and improve my Python/Network skills.
+          <br />
+          It is almost written from scratch using <strong>Python 3.7</strong>.
         </a>
       </div>
 
@@ -69,15 +71,18 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>Kademlia <img
-            style={{
-              float: 'right',
-              width: "5em",
-              display: 'inline-block',
-            }}
-            src="/images/golang.svg"
-            alt="Go"
-          /></h2>
+          <h2>
+            Kademlia{' '}
+            <img
+              style={{
+                float: 'right',
+                width: '3em',
+                display: 'inline-block',
+              }}
+              src="/images/golang.svg"
+              alt="Go"
+            />
+          </h2>
           <p>
             <em>(2018)</em> An attempt to implement the Kademlia protocol using
             the <strong>Go</strong> language.
@@ -101,22 +106,25 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>Bitpy <img
-            style={{
-              float: 'right',
-              width: "3em",
-              display: 'inline-block',
-            }}
-            src="/images/python.svg"
-            alt="Python"
-          /></h2>
+          <h2>
+            Bitpy{' '}
+            <img
+              style={{
+                float: 'right',
+                width: '2em',
+                display: 'inline-block',
+              }}
+              src="/images/python.svg"
+              alt="Python"
+            />
+          </h2>
           <p>
             <em>(2016)</em> Attempt to implement a <strong>Wireshark</strong>{' '}
             like program, where we can see messages sent & received by the{' '}
             <strong>Bitcoin</strong> protocol.
             <br />
-            Written with Shlomi Zeltsinger, we can send and receive Version,
-            Ping, Pongs, Verack, and Getblock messages. <br />
+            Written with a friend, we can send and receive Version, Ping, Pongs,
+            Verack, and Getblock messages. <br />
             The code is in <strong>Python 3.5</strong>. The GUI was built using
             pyqt.
           </p>
