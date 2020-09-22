@@ -15,7 +15,7 @@
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-react": "^7.20.6",
-    "next": "9.5.1",
+    "next": "9.5.3",
     "prettier": "^2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
