@@ -13,7 +13,7 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-react": "^7.21.2",
     "next": "9.5.4",
     "prettier": "^2.1.2",
