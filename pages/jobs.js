@@ -15,7 +15,7 @@ export default function Jobs() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             Vigie{' '}
             <img
               style={{
@@ -45,7 +45,7 @@ export default function Jobs() {
       <br />
 
       <div className="card fixed block">
-        <h2>
+        <h2 style={{ color: 'black' }}>
           ADYOULIKE{' '}
           <img
             style={{
@@ -85,7 +85,7 @@ export default function Jobs() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             Partoo{' '}
             <img
               style={{
@@ -118,7 +118,7 @@ export default function Jobs() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             THALES Communications & Security{' '}
             <img
               style={{

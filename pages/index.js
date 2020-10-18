@@ -41,7 +41,7 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             PyTorrent{' '}
             <img
               style={{
@@ -71,7 +71,7 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             Kademlia{' '}
             <img
               style={{
@@ -106,7 +106,7 @@ export default function Home() {
           style={{ color: 'inherit', textDecoration: 'none' }}
           target="_blank"
         >
-          <h2>
+          <h2 style={{ color: 'black' }}>
             Bitpy{' '}
             <img
               style={{
