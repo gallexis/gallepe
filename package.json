@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-react": "^7.21.2",
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.4",
     "next": "9.5.5",
     "prettier": "^2.1.2",
     "react": "16.14.0",
