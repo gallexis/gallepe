@@ -6,12 +6,13 @@ summary: "(2016) Attempt to implement a Wireshark like program, where we can see
           "
 tags:
 - python
-date: "2016-04-27T00:00:00Z"
+date: "2016-10-01T00:00:00Z"
+weight: 30
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://github.com/gallexis/go-kademlia
+external_link: https://github.com/gallexis/bitpy
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: bitpy
   focal_point: Smart
 ---

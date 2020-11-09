@@ -5,12 +5,13 @@ summary: "(2015) CLI tool  that downloads files from the BitTorrent network. \n
     It is almost written from scratch using Python 3.7."
 tags:
 - python
-date: "2016-04-27T00:00:00Z"
+date: "2015-05-15T00:00:00Z"
+weight: 10
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://github.com/gallexis/pytorrent
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: pytorrent
   focal_point: Smart
 ---

@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -64,7 +64,7 @@ I'm also working on the front-end of Vigie, using Next.js (React), deployed on V
   date_start = "2017-01-01"
   date_end = "2028-01-01"
   description = """
- Intern for 6 month at Thales, a French multinational company that provides services for the aerospace, defence, transportation and security markets.
+ Intern for 6 months at Thales, a French multinational company that provides services for the aerospace, defence, transportation and security markets.
 
  I worked on the conception & implementation of decoders which extract data inside protocols, in IP networks.
  
