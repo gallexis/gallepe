@@ -26,9 +26,6 @@
     Content-Type = "application/rss+xml"
 
 [[plugins]]
-  package = "netlify-plugin-checklinks"
-
-[[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
   [plugins.inputs]
