@@ -2,18 +2,6 @@ $(window).on('load', function() {
     "use strict";
 
     /*=========================================================================
-        Preloader
-    =========================================================================*/
-    // $("#preloader").delay(350).fadeOut('slow');
-    // // Because only Chrome supports offset-path, feGaussianBlur for now
-    // var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    //
-    // if(!isChrome) {
-    //     document.getElementsByClassName('infinityChrome')[0].style.display = "none";
-    //     document.getElementsByClassName('infinity')[0].style.display = "block";
-    // }
-
-    /*=========================================================================
      Wow Initialize
      =========================================================================*/
     // Here will be the WoW Js implementation.
@@ -204,16 +192,6 @@ $(function(){
       event.preventDefault();
     });
 
-    /*=========================================================================
-     Parallax layers
-     =========================================================================*/
-     if ($('.parallax').length > 0) {
-      var scene = $('.parallax').get(0);
-      var parallax = new Parallax(scene, {
-        relativeInput: true,
-      });
-    }
-
      /*=========================================================================
      Text Rotating
      =========================================================================*/
@@ -314,4 +292,9 @@ $(function(){
         }, 400);
     });
 
+
+    /*=========================================================================
+                Particules
+     =========================================================================*/
+    particlesJS({"particles":{"number":{"value":57,"density":{"enable":true,"value_area":789.1476416322727}},"color":{"value":"#ff4c60"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":11.988011988011989,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ff4c60","opacity":0.4,"width":1},"move":{"enable":true,"speed":0.4,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":true,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"window","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":63.93606393606394,"duration":0.2},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
 });
