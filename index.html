@@ -23,14 +23,8 @@
     <meta property="og:updated_time" content="2018-10-01T00:00:00+00:00">
     <link rel="canonical" href="https://gallepe.com/"/>
 
-
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/libs.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
     <!--[if lt IE 9]>
@@ -39,11 +33,13 @@
     <![endif]-->
 
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "67ehpafacu");
+        if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1"){
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "67ehpafacu");
+        }
     </script>
 </head>
 
@@ -280,7 +276,8 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div style="text-align: right;"><sub>* 100% means I feel the most confident in ...</sub>
+
+                                <div style="text-align: right;"><sub>100% = most confident</sub>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +315,7 @@
                                                                          href="https://rebrand.ly/pytorrent"
                                                                          target="_blank" rel="noopener">Pytorrent</a>
                                     </h2>
-                                    <p style="font-size: 1.2em;" class="mb-0">(2015) <b>CLI</b> tool that downloads
+                                    <p style="font-size: 1.2em;" class="mb-0">2015 &#183; <b>CLI</b> tool that downloads
                                         files from
                                         the <b>BitTorrent</b> network.
                                         <br>My first personal project, made to learn how does a <b>decentralized
@@ -346,7 +343,7 @@
                                                                          href="https://rebrand.ly/gallexis-kademlia"
                                                                          target="_blank" rel="noopener">Kademlia</a>
                                     </h2>
-                                    <p style="font-size: 1.2em;" class="mb-0">(2018) An attempt to implement the
+                                    <p style="font-size: 1.2em;" class="mb-0">2018 &#183; An attempt to implement the
                                         Kademlia protocol using the <b>Go</b>
                                         language. <br>Kademlia is a <b>Distributed Hash Table</b> (DHT) protocol for
                                         decentralized
@@ -377,7 +374,7 @@
                                     <h2 class="mb-3 mt-0 text-center"><a style="color: inherit;"
                                                                          href="https://rebrand.ly/gallexis-bitpy"
                                                                          target="_blank" rel="noopener">BitPy</a></h2>
-                                    <p style="font-size: 1.2em;" class="mb-0">(2016) Attempt to implement a
+                                    <p style="font-size: 1.2em;" class="mb-0">2016 &#183; Attempt to implement a
                                         <b>Wireshark</b>
                                         like program, where we can see messages
                                         sent &amp; received by the <b>Bitcoin</b> protocol. <br>Written with a friend,
@@ -611,23 +608,7 @@
 <a href="#" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
 
 <!-- SCRIPTS -->
-<script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/infinite-scroll.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/validator.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/morphext.min.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/libs.min.js"></script>
 <script src="js/custom.js"></script>
-
-
 </body>
 </html>
